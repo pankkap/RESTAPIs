@@ -4,6 +4,10 @@ const noteSchema = new mongoose.Schema(
     {
     title: String,
     body:String,
+    oldest:Boolean,
+    latest:Boolean,
+    liked:Boolean,
+    disliked:Boolean,
     }
 )
 
